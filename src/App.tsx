@@ -27,10 +27,10 @@ function App() {
     <>
       <Header title="Página Inicial" />
       <Header title="Outro ..." />
-      <h1>Hello Dev!</h1>
-      <Menu>
-        <ul>
-          <li>Home</li>
+      <h1 className='test'>Hello Dev!</h1>
+      <Menu >
+        <ul className="test" >
+          <li data-testid="teste1">Home</li>
           <li>Contact</li>
           <li>About</li>
         </ul>
